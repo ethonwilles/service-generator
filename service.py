@@ -71,7 +71,7 @@ def creator():
 
         
         try:
-            document.save('C:/Users/terra/Documents/Invoices/'+f'Invoice for Alside {inv_num} {location}.docx')
+            document.save('C:/Users/Owner/Documents/Invoices/'+f'Invoice for Alside {inv_num} {location}.docx')
             print("\n Invoice Created!")
 
             # message = MIMEMultipart()
